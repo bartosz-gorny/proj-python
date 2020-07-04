@@ -11,7 +11,7 @@ y1 = dataset1.iloc[:, -1].values
 dataset2 = pd.read_csv('../dane-csv/lp-rok-lwypsum-02-11.csv')
 X2 = dataset2.iloc[:, 1:-1].values
 y2 = dataset2.iloc[:, -1].values
-dataset3 = pd.read_csv('../dane-csv/lp-rok-lwypsum-02-08.csv')
+dataset3 = pd.read_csv('../dane-csv/lp-rok-lwypsum-02-10.csv')
 X3 = dataset3.iloc[:, 1:-1].values
 y3 = dataset3.iloc[:, -1].values
 
