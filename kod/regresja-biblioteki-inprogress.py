@@ -22,7 +22,7 @@ from sklearn.linear_model import LinearRegression
 # lin_reg.fit(X, y)
 
 from sklearn.preprocessing import PolynomialFeatures
-poly_reg = PolynomialFeatures(degree = 1)
+poly_reg = PolynomialFeatures(degree = 3)
 
 #polynomial dla pierwszych danych
 X_poly = poly_reg.fit_transform(X)
