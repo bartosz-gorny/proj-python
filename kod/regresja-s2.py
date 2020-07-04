@@ -20,7 +20,7 @@ def KMNK(Y, x0, x1):
  
 def rysuj(pozycja_rysunku,x0,x1,Y,tablica_x):
     plt.subplot(2,2,pozycja_rysunku)
-    plt.plot(x1,Y,'rx'p
+    plt.plot(x1,Y,'rx')
     plt.plot(tablica_x,KMNK(Y, x0, x1))
     plt.grid(True)
     plt.xlabel('Kolejne lata od 2002')
