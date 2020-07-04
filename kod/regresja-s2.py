@@ -23,9 +23,9 @@ def rysuj(pozycja_rysunku,x0,x1,Y,tablica_x):
     plt.plot(x1,Y,'rx')
     plt.plot(tablica_x,KMNK(Y, x0, x1))
     plt.grid(True)
-    plt.xlabel('Kolejne lata od 2002')
-    plt.ylabel('Liczba wypadków od roku 2002')
-    napis='Liczba wypadków w Polsce na podstawie danych z ' + str(np.size(Y)) + 'lat'
+    plt.xlabel('Kolejne lata od 2000')
+    plt.ylabel('Liczba wypadków od roku 2000')
+    napis='Sumaryczna liczba wypadków w Polsce od 2000r. na podstawie danych z ' + str(np.size(Y)) + 'lat'
     plt.title(napis)
     plt.legend(('dane rzeczywiste','dane modelowane'))
     labels = [2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025]
