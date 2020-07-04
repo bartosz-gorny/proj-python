@@ -46,3 +46,6 @@ rysuj(2,X1,y1)
 rysuj(3,X2,y2)
 rysuj(4,X3,y3)
 plt.show()
+
+#PREDYKCJA ILOŚCI SUMARYCZNYCH WYPADKÓW NA DANY ROK
+print(lin_reg_2.predict(poly_reg.fit_transform([[2030]])))
