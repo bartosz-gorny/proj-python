@@ -1,1 +1,1 @@
-# proj-python
+# Projekt zaliczeniowy z programowania zaawansowanego
